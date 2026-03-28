@@ -5,6 +5,23 @@
 TypeMeter is an interactive web application designed to help users improve their typing speed and accuracy. It provides both practice and test modes with real-time feedback and performance evaluation.
 
 ---
+The application includes:
+
+* Typing practice and test modules
+* User registration and login system
+* Contact form with database storage
+* Backend integration using PHP and MySQL
+
+---
+
+## ⚙️ Technologies Used
+
+* HTML, CSS, Bootstrap
+* JavaScript
+* PHP
+* MySQL (via XAMPP/WAMP)
+
+---
 
 ## 🚀 Features
 
@@ -57,11 +74,127 @@ TypeMeter is an interactive web application designed to help users improve their
 
 ---
 
-## 🛠️ Technologies Used
+## 🗄️ Database Setup (How to Import)
 
-- HTML
-- CSS
-- Bootstrap 
-- JavaScript 
-- PHP
+1. Open **XAMPP Control Panel**
+
+2. Start:
+
+   * Apache
+   * MySQL
+
+3. Open your browser and go to:
+   http://localhost/phpmyadmin
+
+4. Click **New** (left sidebar)
+
+5. Create a database:
+
+   * Name: `typemeter`
+
+6. Click on the created database (`typemeter`)
+
+7. Go to the **Import** tab
+
+8. Click **Choose File** and select:
+
+   * `database.sql` (included in the project)
+
+9. Click **Go**
+
+✅ Now your database is ready.
+
+---
+
+## 🚀 How to Run the Project (XAMPP/WAMP)
+
+1. Copy the project folder (e.g., `typemeter`) into:
+
+   For XAMPP:
+
+   ```
+   C:\xampp\htdocs\
+   ```
+
+   For WAMP:
+
+   ```
+   C:\wamp\www\
+   ```
+
+2. Open **XAMPP/WAMP Control Panel**
+
+3. Start:
+
+   * Apache
+   * MySQL
+
+4. Open your browser and go to:
+
+   ```
+   http://localhost/typemeter/
+   ```
+
+5. You will see the home page of the application.
+
+---
+
+## 🔐 User Authentication
+
+* Users can register using the registration page
+* Passwords are securely stored using `password_hash()`
+* Login is validated using `password_verify()`
+* Sessions are used to manage logged-in users
+
+---
+
+## 📩 Contact Form
+
+* Users can send messages through the contact page
+* Messages are stored in the MySQL database (`messages` table)
+
+---
+
+## 📁 Project Structure
+
+```
+typemeter/
+│── styles.css
+│── script.js
+│── includes/
+│   └── db.php
+│── auth/
+│   ├── login.php
+│   ├── register.php
+│   ├── logout.php
+│── contact.php
+│── index.html 
+│── login.html
+│── register.html
+│── dashboard.php
+│── database.sql
+│── contact.html
+│── practice.html
+│── test.html
+│── tips.html
+```
+
+---
+
+## 📌 Notes
+
+* This project runs on a local server (XAMPP/WAMP)
+* PHP will not work on GitHub Pages
+* Ensure Apache and MySQL are running before accessing the project
+
+---
+
+## 👨‍💻 Developed By
+
+TypeMeter group
+Course: ICT 2204
+University: Rajarata University of Sri Lanka
+
+---
+
 
