@@ -57,7 +57,7 @@ The application includes:
 |------------------|----------|---------|
 | 🔴 Low | WPM < 20 OR Accuracy < 50% | Don’t give up! Accuracy improves with consistent practice. |
 | 🟡 Moderate | WPM 20–30 AND Accuracy > 75% | Good effort! Practice more to improve your accuracy. |
-| 🟢 High | WPM > 30 AND Accuracy > 80% | Great job! Excellent work! |
+| 🟢 High | WPM > 30 AND Accuracy > 80% | Your accuracy is excellent! Keep up the amazing work!Excellent work! |
 
 ---
 
