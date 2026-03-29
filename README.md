@@ -19,7 +19,7 @@ The application includes:
 * HTML, CSS, Bootstrap
 * JavaScript
 * PHP
-* MySQL (via XAMPP/WAMP)
+* MySQL (via XAMPP)
 
 ---
 
